@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /sendmail.php
+Disallow: /test-email.html
+Disallow: /*?
+Disallow: /_next/
+
+# Allow important files
+Allow: /favicon.ico
+Allow: /robots.txt
+Allow: /sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://coolingservicemelbourne.com.au/sitemap.xml
+
+# Additional sitemaps
+Sitemap: https://coolingservicemelbourne.com.au/sitemap-services.xml
+Sitemap: https://coolingservicemelbourne.com.au/sitemap-locations.xml

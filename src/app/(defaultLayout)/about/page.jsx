@@ -4,6 +4,39 @@ import Contact1 from "@/app/Components/ContactInfo/Contact1";
 import Services1 from "@/app/Components/Services/Services1";
 import React from "react";
 
+export const metadata = {
+  title:
+    "About Cooling Service Melbourne | 15+ Years Licensed Air Conditioning Specialists",
+  description:
+    "Meet Melbourne's most trusted air conditioning specialists. 15+ years experience, licensed technicians, same-day service across all Melbourne suburbs. Specializing in split systems, evaporative cooling & ducted refrigeration. 1,200+ happy customers. Call 0405 133 761!",
+  keywords:
+    "about cooling service Melbourne, licensed air conditioning technician Melbourne, Melbourne AC specialists, experienced cooling technicians Melbourne, professional air conditioning company Melbourne, local air conditioning business Melbourne, trusted AC repair Melbourne, established cooling business Melbourne",
+  openGraph: {
+    title:
+      "About Cooling Service Melbourne | 15+ Years Trusted Air Conditioning Specialists",
+    description:
+      "Melbourne's most trusted air conditioning company. 15+ years experience, licensed technicians, same-day service. 1,200+ satisfied customers across all Melbourne suburbs!",
+    url: "https://coolingservicemelbourne.com.au/about",
+    images: [
+      {
+        url: "/assets/img/about_img_1.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Cooling Service Melbourne Team - Licensed Air Conditioning Technicians",
+      },
+    ],
+  },
+  twitter: {
+    title:
+      "About Cooling Service Melbourne | Trusted AC Specialists | 15+ Years Experience",
+    description:
+      "Melbourne's trusted air conditioning specialists. Licensed technicians, same-day service, 1,200+ happy customers. All suburbs covered. Call 0405 133 761!",
+  },
+  alternates: {
+    canonical: "https://coolingservicemelbourne.com.au/about",
+  },
+};
+
 const page = () => {
   return (
     <div>

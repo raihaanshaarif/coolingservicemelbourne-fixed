@@ -162,79 +162,60 @@ export async function generateMetadata({ params }) {
 
   if (!area) {
     return {
-      title: "Service Area Not Found",
+      title: "Service Area Not Found | Cooling Service Melbourne",
+      robots: { index: false, follow: false },
     };
   }
 
+  const areaName = area.name;
+
   return {
-    title: `${area.name} Air Conditioning Services | Same Day Repair & Installation | 0405 133 761`,
-    description: `Expert air conditioning services in ${area.name}, Melbourne. Emergency repairs, split system installation, ducted cooling, evaporative maintenance. Licensed technicians, 15+ years experience. Same-day service available. Call 0405 133 761 for free quotes.`,
+    title: `Air Conditioning ${areaName} Melbourne | Same-Day Repair & Installation | 0405 133 761`,
+    description: `★★★★★ Professional air conditioning services in ${areaName}, Melbourne. Same-day split system repair, evaporative cooling, ducted AC installation. Licensed technicians, free quotes, 24/7 emergency service. Servicing ${areaName} and surrounding suburbs.`,
     keywords: [
-      `air conditioning ${area.name}`,
-      `aircon repair ${area.name}`,
-      `split system ${area.name}`,
-      `ducted cooling ${area.name}`,
-      `evaporative cooling ${area.name}`,
-      `emergency aircon ${area.name}`,
-      `cooling service ${area.name}`,
-      `air conditioner installation ${area.name}`,
-      `HVAC ${area.name}`,
-      `refrigeration repair ${area.name}`,
-      `${area.name} cooling specialist`,
-      `same day aircon repair ${area.name}`,
-      `24/7 air conditioning ${area.name}`,
-      `licensed air conditioning ${area.name}`,
-      `energy efficient cooling ${area.name}`,
+      `air conditioning ${areaName}`,
+      `air conditioning repair ${areaName}`,
+      `air conditioning installation ${areaName}`,
+      `split system ${areaName}`,
+      `evaporative cooling ${areaName}`,
+      `ducted air conditioning ${areaName}`,
+      `emergency air conditioning ${areaName}`,
+      `air conditioning service ${areaName}`,
+      `cooling system ${areaName}`,
+      `AC repair ${areaName}`,
+      `air conditioning technician ${areaName}`,
+      `same day air conditioning ${areaName}`,
+      `licensed air conditioning ${areaName}`,
+      `residential air conditioning ${areaName}`,
+      `commercial air conditioning ${areaName}`,
     ].join(", "),
     authors: [{ name: "Cooling Service Melbourne" }],
     creator: "Cooling Service Melbourne",
     publisher: "Cooling Service Melbourne",
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-      },
-    },
     openGraph: {
-      title: `${area.name} Air Conditioning Services | Same Day Repair & Installation`,
-      description: `Professional air conditioning services in ${area.name}, Melbourne. Emergency repairs, installations, maintenance. Licensed technicians, 15+ years experience, same-day service.`,
-      url: `https://coolingservicemelbourne.com.au/service-areas/${area.slug}`,
+      title: `Air Conditioning ${areaName} | Same-Day Service | 0405 133 761`,
+      description: `★★★★★ Professional air conditioning services in ${areaName}, Melbourne. Same-day repair, installation & maintenance. Licensed technicians, all major brands, free quotes!`,
+      url: `https://coolingservicemelbourne.com.au/service-areas/${slug}`,
       siteName: "Cooling Service Melbourne",
-      images: [
-        {
-          url: "/assets/img/service_banner.jpg",
-          width: 1200,
-          height: 630,
-          alt: `Air Conditioning Services in ${area.name} Melbourne`,
-        },
-      ],
+      images: [{ url: "/openGraphImage.jpg", width: 1200, height: 630 }],
       locale: "en_AU",
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
-      title: `${area.name} Air Conditioning Services | Same Day Repair`,
-      description: `Expert air conditioning services in ${area.name}, Melbourne. Emergency repairs, installations, maintenance. Call 0405 133 761`,
-      creator: "@CoolingServiceMelb",
-      images: ["/assets/img/service_banner.jpg"],
+      title: `Air Conditioning ${areaName} | Same-Day Service | 0405 133 761`,
+      description: `★★★★★ Expert air conditioning services in ${areaName}. Same-day repair, installation & maintenance. Licensed technicians, free quotes!`,
     },
     alternates: {
-      canonical: `https://coolingservicemelbourne.com.au/service-areas/${area.slug}`,
+      canonical: `https://coolingservicemelbourne.com.au/service-areas/${slug}`,
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
     other: {
       "geo.region": "AU-VIC",
-      "geo.placename": `${area.name}, Melbourne, Victoria`,
-      "geo.position": "-37.8136;144.9631",
-      ICBM: "-37.8136, 144.9631",
-      "business:contact_data:locality": area.name,
-      "business:contact_data:region": "Victoria",
-      "business:contact_data:country_name": "Australia",
-      "business:contact_data:phone_number": "0405133761",
+      "geo.placename": `${areaName}, Melbourne`,
     },
   };
 }
