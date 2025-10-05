@@ -1,0 +1,22 @@
+[
+  {
+    "img": "/assets/img/icon1.png",
+    "title": "Diagnose the Problem",
+    "desc": "Our expert technicians thoroughly inspect your cooling system to identify all issues and provide transparent pricing."
+  },
+  {
+    "img": "/assets/img/icon2.png",
+    "title": "Source Quality Parts",
+    "desc": "We use only genuine, high-quality replacement parts and components to ensure long-lasting cooling system repairs."
+  },
+  {
+    "img": "/assets/img/icon3.png",
+    "title": "Professional Repair",
+    "desc": "Licensed technicians perform expert repairs and installations following industry best practices and safety standards."
+  },
+  {
+    "img": "/assets/img/icon4.png",
+    "title": "Test & Guarantee",
+    "desc": "Complete system testing ensures optimal performance with warranty coverage and ongoing maintenance support."
+  }
+]

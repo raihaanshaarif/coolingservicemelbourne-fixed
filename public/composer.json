@@ -1,0 +1,19 @@
+{
+  "name": "servicefirst/contact-form",
+  "description": "Contact form with PHPMailer for Service First Cooling Services",
+  "type": "project",
+  "require": {
+    "phpmailer/phpmailer": "^6.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require-dev": {},
+  "scripts": {
+    "post-install-cmd": [
+      "echo 'PHPMailer installed successfully'"
+    ]
+  }
+}
