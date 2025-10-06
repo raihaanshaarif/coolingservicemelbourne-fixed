@@ -255,6 +255,10 @@ export default function Nav({ setMobileToggle }) {
       </li>
 
       <li>
+        <Link href="/self-care">Self Care</Link>
+      </li>
+
+      <li>
         <Link href="/contact" onClick={() => setMobileToggle(false)}>
           Contact
         </Link>

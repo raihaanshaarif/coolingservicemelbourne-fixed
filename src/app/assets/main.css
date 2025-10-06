@@ -1774,7 +1774,7 @@ textarea {
   width: 100%;
   left: 0;
   top: 0;
-  background-color: var(--heading-color);
+
   opacity: 0;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -9776,5 +9776,197 @@ label {
   .cs_product_icon {
     margin-right: 0 !important;
     margin-bottom: 15px;
+  }
+}
+
+/* Self Care - Error Codes Styles */
+.cs_brand_card {
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  background: var(--white-color);
+}
+
+.cs_brand_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-color: var(--accent-color);
+}
+
+.cs_brand_link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.cs_brand_logo {
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.cs_brand_card:hover .cs_brand_logo {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+.cs_error_code_card {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background: var(--white-color);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.cs_error_code_card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border-color: var(--accent-color);
+}
+
+.cs_error_card_header {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 20px 25px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.cs_error_card_body {
+  padding: 25px;
+}
+
+.cs_error_code {
+  color: var(--accent-color);
+  font-family: "Courier New", monospace;
+  background: rgba(239, 15, 58, 0.1);
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.cs_search_box {
+  position: relative;
+}
+
+.cs_search_box input {
+  padding-right: 45px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  height: 50px;
+}
+
+.cs_search_box i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--body-color);
+}
+
+.cs_severity_badge .badge {
+  font-size: 11px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.cs_quick_help_steps .cs_help_step {
+  display: flex;
+  align-items: center;
+}
+
+.cs_step_number {
+  background: var(--accent-color);
+  color: var(--white-color);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.cs_popular_codes .cs_code_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.cs_popular_codes .cs_code_item:last-child {
+  border-bottom: none;
+}
+
+.cs_code_number {
+  background: rgba(239, 15, 58, 0.1);
+  color: var(--accent-color);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  min-width: 60px;
+  text-align: center;
+}
+
+.cs_brand_logo_large {
+  border: 3px solid var(--border-color);
+  border-radius: 50%;
+  padding: 15px;
+  background: var(--white-color);
+}
+
+.cs_no_results {
+  padding: 60px 0;
+}
+
+.cs_contact_point {
+  margin-bottom: 8px;
+}
+
+.cs_severity_legend .cs_severity_item {
+  padding: 8px 0;
+}
+
+.cs_safety_list li {
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cs_brand_header .row {
+    text-align: center;
+  }
+
+  .cs_error_card_header,
+  .cs_error_card_body {
+    padding: 15px;
+  }
+
+  .cs_search_filter .col-md-6 {
+    margin-bottom: 15px;
+  }
+
+  .cs_error_actions .col-md-4 {
+    text-align: center !important;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cs_brand_card_inner {
+    padding: 20px 15px !important;
+  }
+
+  .cs_error_code {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .cs_fs_36 {
+    font-size: 28px !important;
   }
 }
