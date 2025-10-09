@@ -5,10 +5,14 @@ export default function Nav({ setMobileToggle }) {
   return (
     <ul className="cs_nav_list">
       <li>
-        <Link href="/">Home</Link>
+        <Link href="/" onClick={() => setMobileToggle(false)}>
+          Home
+        </Link>
       </li>
       <li>
-        <Link href="/about">About</Link>
+        <Link href="/about" onClick={() => setMobileToggle(false)}>
+          About
+        </Link>
       </li>
       <li className="menu-item-has-children">
         <Link href="/service" onClick={() => setMobileToggle(false)}>
@@ -251,11 +255,15 @@ export default function Nav({ setMobileToggle }) {
       </li>
 
       <li className="menu-item-has-children">
-        <Link href="/brands">Brands</Link>
+        <Link href="/brands" onClick={() => setMobileToggle(false)}>
+          Brands
+        </Link>
       </li>
 
       <li>
-        <Link href="/self-care">Self Care</Link>
+        <Link href="/self-care" onClick={() => setMobileToggle(false)}>
+          Self Care
+        </Link>
       </li>
 
       <li>

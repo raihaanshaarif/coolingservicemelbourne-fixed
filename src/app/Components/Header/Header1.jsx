@@ -6,27 +6,25 @@ import Image from "next/image";
 export default function Header1({ variant }) {
   const [mobileToggle, setMobileToggle] = useState(false);
   const [isSticky, setIsSticky] = useState();
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollPos = window.scrollY;
-      if (currentScrollPos > prevScrollPos) {
-        setIsSticky("cs-gescout_sticky"); // Scrolling down
-      } else if (currentScrollPos !== 0) {
-        setIsSticky("cs-gescout_show cs-gescout_sticky"); // Scrolling up
+      if (window.scrollY > 0) {
+        setIsSticky("cs-gescout_show cs-gescout_sticky"); // Always sticky and visible when scrolled
       } else {
-        setIsSticky();
+        setIsSticky(); // Default state at top of page
       }
-      setPrevScrollPos(currentScrollPos); // Update previous scroll position
     };
 
     window.addEventListener("scroll", handleScroll);
 
+    // Initial check in case page loads scrolled down
+    handleScroll();
+
     return () => {
       window.removeEventListener("scroll", handleScroll); // Cleanup the event listener
     };
-  }, [prevScrollPos]);
+  }, []);
 
   return (
     <div className="header-area2 header_nav_03">
