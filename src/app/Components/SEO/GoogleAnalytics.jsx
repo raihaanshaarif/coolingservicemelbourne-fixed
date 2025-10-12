@@ -1,13 +1,13 @@
-'use client';
-import Script from 'next/script';
-import Image from 'next/image';
+"use client";
+import Script from "next/script";
+import Image from "next/image";
 
 export default function GoogleAnalytics() {
   return (
     <>
       {/* Google Analytics 4 */}
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        src="https://www.googletagmanager.com/gtag/js?id=G-7NJJ0JFLV8"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -15,14 +15,14 @@ export default function GoogleAnalytics() {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'GA_MEASUREMENT_ID', {
+          gtag('config', 'G-7NJJ0JFLV8', {
             page_title: document.title,
             page_location: window.location.href,
             send_page_view: true
           });
 
           // Enhanced E-commerce for lead tracking
-          gtag('config', 'GA_MEASUREMENT_ID', {
+          gtag('config', 'G-7NJJ0JFLV8', {
             custom_map: {
               'custom_parameter_1': 'phone_calls',
               'custom_parameter_2': 'form_submissions'
@@ -57,7 +57,7 @@ export default function GoogleAnalytics() {
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-CONTAINER-ID');
+          })(window,document,'script','dataLayer','GTM-N3J3C7NB');
         `}
       </Script>
 
@@ -76,12 +76,12 @@ export default function GoogleAnalytics() {
           fbq('track', 'PageView');
         `}
       </Script>
-      
+
       <noscript>
-        <Image 
-          height={1} 
-          width={1} 
-          style={{display: 'none'}}
+        <Image
+          height={1}
+          width={1}
+          style={{ display: "none" }}
           src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"
           alt=""
         />
