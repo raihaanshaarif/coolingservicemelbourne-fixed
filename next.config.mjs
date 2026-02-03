@@ -9,7 +9,7 @@ const nextConfig = {
   experimental: {
     turbo: {
       resolveAlias: {
-        "@": path.resolve(__dirname, "src"),
+        "@": "./src",
       },
     },
   },
