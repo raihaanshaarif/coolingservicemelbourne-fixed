@@ -21,9 +21,7 @@ export async function POST(request) {
       "SMTP_FROM",
       "SMTP_TO",
     ];
-    const missingEnvVars = requiredEnvVars.filter(
-      (key) => !process.env[key],
-    );
+    const missingEnvVars = requiredEnvVars.filter((key) => !process.env[key]);
 
     if (missingEnvVars.length > 0) {
       console.error(
