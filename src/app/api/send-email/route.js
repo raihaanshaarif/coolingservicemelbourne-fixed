@@ -1,4 +1,4 @@
-import nodemailer from "nodemailer";
+import { createTransporter } from "nodemailer";
 
 export async function POST(request) {
   try {
@@ -38,7 +38,7 @@ export async function POST(request) {
     }
 
     // Create transporter
-    const transporter = nodemailer.createTransporter({
+    const transporter = createTransporter({
       host: process.env.SMTP_HOST,
       port: parseInt(process.env.SMTP_PORT),
       secure: parseInt(process.env.SMTP_PORT) === 465, // true for 465, false for other ports
