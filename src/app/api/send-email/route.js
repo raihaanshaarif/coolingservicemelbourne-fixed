@@ -64,6 +64,14 @@ export async function POST(request) {
       `,
     };
 
+    // Debug logging (Remove in final production if desired, safe as password is not logged)
+    console.log("Attempting to send email with config:", {
+      host: process.env.SMTP_HOST,
+      port: process.env.SMTP_PORT,
+      user: process.env.SMTP_USER,
+      secure: parseInt(process.env.SMTP_PORT) === 465,
+    });
+
     // Send email
     await transporter.sendMail(mailOptions);
 
@@ -79,7 +87,9 @@ export async function POST(request) {
     return Response.json(
       {
         success: false,
-        message: "Failed to send email. Please try again later.",
+        message:
+          "Failed to send email. " +
+          (error.message || "Please try again later."),
       },
       { status: 500 },
     );
