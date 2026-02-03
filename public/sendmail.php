@@ -1,7 +1,7 @@
 <?php
 // Enable error reporting for debugging (remove in production)
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+// error_reporting(E_ALL);
+// ini_set('display_errors', 1);
 
 // Set content type for JSON response
 header('Content-Type: application/json');
@@ -42,21 +42,6 @@ function sendEmailBasic($to, $subject, $htmlBody, $fromEmail, $fromName, $replyT
     $headerString = implode("\r\n", $headers);
     
     return mail($to, $subject, $htmlBody, $headerString);
-}
-
-// Function to sanitize input
-function sanitizeInput($input) {
-    return htmlspecialchars(strip_tags(trim($input)));
-}
-
-// Function to validate email
-function validateEmail($email) {
-    return filter_var($email, FILTER_VALIDATE_EMAIL);
-}
-
-// Function to validate phone number (basic validation)
-function validatePhone($phone) {
-    return preg_match('/^[\d\s\-\+\(\)]+$/', $phone);
 }
 
 try {

@@ -16,7 +16,7 @@ export const metadata = {
       "About Cooling Service Melbourne | 15+ Years Trusted Air Conditioning Specialists",
     description:
       "Melbourne's most trusted air conditioning company. 15+ years experience, licensed technicians, same-day service. 1,200+ satisfied customers across all Melbourne suburbs!",
-    url: "https://coolingservicemelbourne.com.au/about",
+    url: "https://www.coolingservicemelbourne.com.au/about",
     images: [
       {
         url: "/assets/img/about_img_1.jpg",
@@ -33,7 +33,7 @@ export const metadata = {
       "Melbourne's trusted air conditioning specialists. Licensed technicians, same-day service, 1,200+ happy customers. All suburbs covered. Call 0405 133 761!",
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/about",
+    canonical: "https://www.coolingservicemelbourne.com.au/about",
   },
 };
 

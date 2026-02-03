@@ -195,7 +195,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: `Air Conditioning ${areaName} | Same-Day Service | 0405 133 761`,
       description: `★★★★★ Professional air conditioning services in ${areaName}, Melbourne. Same-day repair, installation & maintenance. Licensed technicians, all major brands, free quotes!`,
-      url: `https://coolingservicemelbourne.com.au/service-areas/${slug}`,
+      url: `https://www.coolingservicemelbourne.com.au/service-areas/${slug}`,
       siteName: "Cooling Service Melbourne",
       images: [{ url: "/openGraphImage.jpg", width: 1200, height: 630 }],
       locale: "en_AU",
@@ -207,7 +207,7 @@ export async function generateMetadata({ params }) {
       description: `★★★★★ Expert air conditioning services in ${areaName}. Same-day repair, installation & maintenance. Licensed technicians, free quotes!`,
     },
     alternates: {
-      canonical: `https://coolingservicemelbourne.com.au/service-areas/${slug}`,
+      canonical: `https://www.coolingservicemelbourne.com.au/service-areas/${slug}`,
     },
     robots: {
       index: true,

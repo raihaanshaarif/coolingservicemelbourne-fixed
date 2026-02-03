@@ -40,7 +40,7 @@ export const metadata = {
       "Melbourne's #1 Air Conditioning Specialists | Same-Day Service | 0405 133 761",
     description:
       "★★★★★ Rated Melbourne air conditioning experts. Same-day split system repair, evaporative cooling, ducted AC. Licensed technicians, all suburbs, 24/7 emergency service. Free quotes!",
-    url: "https://coolingservicemelbourne.com.au",
+    url: "https://www.coolingservicemelbourne.com.au",
     siteName: "Cooling Service Melbourne",
     images: [
       {
@@ -62,7 +62,7 @@ export const metadata = {
     images: ["/openGraphImage.jpg"],
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au",
+    canonical: "https://www.coolingservicemelbourne.com.au",
   },
   robots: {
     index: true,

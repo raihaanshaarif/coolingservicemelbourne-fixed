@@ -26,7 +26,7 @@ const Form1 = () => {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch("/sendmail.php", {
+      const response = await fetch("/api/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

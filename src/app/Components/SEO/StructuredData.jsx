@@ -4,12 +4,12 @@ export default function StructuredData() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://coolingservicemelbourne.com.au/#organization",
+    "@id": "https://www.coolingservicemelbourne.com.au/#organization",
     name: "Cooling Service Melbourne",
     alternateName: "Air Conditioning Melbourne",
     description:
       "Melbourne's premier air conditioning specialists providing same-day repair, installation and maintenance services for split systems, evaporative cooling and ducted refrigeration across all Melbourne suburbs.",
-    url: "https://coolingservicemelbourne.com.au",
+    url: "https://www.coolingservicemelbourne.com.au",
     telephone: "+61405133761",
     email: "servicefirsthampton@gmail.com",
     address: {
@@ -51,14 +51,14 @@ export default function StructuredData() {
     paymentAccepted: "Cash, Credit Card, Bank Transfer",
     logo: {
       "@type": "ImageObject",
-      url: "https://coolingservicemelbourne.com.au/assets/img/logo.svg",
+      url: "https://www.coolingservicemelbourne.com.au/assets/img/logo.svg",
       width: 300,
       height: 100,
     },
     image: [
       {
         "@type": "ImageObject",
-        url: "https://coolingservicemelbourne.com.au/openGraphImage.jpg",
+        url: "https://www.coolingservicemelbourne.com.au/openGraphImage.jpg",
         width: 1200,
         height: 630,
       },
@@ -149,7 +149,7 @@ export default function StructuredData() {
     "@type": "Service",
     serviceType: "Air Conditioning Services",
     provider: {
-      "@id": "https://coolingservicemelbourne.com.au/#organization",
+      "@id": "https://www.coolingservicemelbourne.com.au/#organization",
     },
     areaServed: {
       "@type": "City",
@@ -176,7 +176,7 @@ export default function StructuredData() {
               itemOffered: {
                 "@type": "Service",
                 name: "Split System Installation Melbourne",
-                url: "https://coolingservicemelbourne.com.au/service/split-system/split-system-installation-melbourne",
+                url: "https://www.coolingservicemelbourne.com.au/service/split-system/split-system-installation-melbourne",
               },
             },
             {
@@ -184,7 +184,7 @@ export default function StructuredData() {
               itemOffered: {
                 "@type": "Service",
                 name: "Split System Repair Melbourne",
-                url: "https://coolingservicemelbourne.com.au/service/split-system/split-system-repair-melbourne",
+                url: "https://www.coolingservicemelbourne.com.au/service/split-system/split-system-repair-melbourne",
               },
             },
           ],
@@ -198,7 +198,7 @@ export default function StructuredData() {
               itemOffered: {
                 "@type": "Service",
                 name: "Evaporative Cooling Installation Melbourne",
-                url: "https://coolingservicemelbourne.com.au/service/evaporative-system/evaporative-cooling-installation-melbourne",
+                url: "https://www.coolingservicemelbourne.com.au/service/evaporative-system/evaporative-cooling-installation-melbourne",
               },
             },
             {
@@ -206,7 +206,7 @@ export default function StructuredData() {
               itemOffered: {
                 "@type": "Service",
                 name: "Evaporative System Repair Melbourne",
-                url: "https://coolingservicemelbourne.com.au/service/evaporative-system/evaporative-system-repair-melbourne",
+                url: "https://www.coolingservicemelbourne.com.au/service/evaporative-system/evaporative-system-repair-melbourne",
               },
             },
           ],
@@ -223,13 +223,13 @@ export default function StructuredData() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://coolingservicemelbourne.com.au",
+        item: "https://www.coolingservicemelbourne.com.au",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Services",
-        item: "https://coolingservicemelbourne.com.au/service",
+        item: "https://www.coolingservicemelbourne.com.au/service",
       },
     ],
   };

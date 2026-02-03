@@ -14,7 +14,7 @@ export const metadata = {
       "Professional Air Conditioning Services Melbourne | Licensed Technicians | Same-Day Service",
     description:
       "★★★★★ Complete air conditioning services across Melbourne. Split system, ducted, evaporative cooling. Installation, repair, maintenance. Emergency service 24/7. Licensed technicians, 5-year warranty!",
-    url: "https://coolingservicemelbourne.com.au/service",
+    url: "https://www.coolingservicemelbourne.com.au/service",
     images: [
       {
         url: "/assets/img/portfolio_img_1.jpg",
@@ -31,7 +31,7 @@ export const metadata = {
       "Professional AC services across Melbourne. Split system, ducted, evaporative. Licensed technicians, emergency repairs, free quotes. Call 0405 133 761!",
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/service",
+    canonical: "https://www.coolingservicemelbourne.com.au/service",
   },
 };
 

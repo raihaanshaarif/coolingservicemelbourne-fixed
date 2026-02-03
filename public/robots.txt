@@ -18,8 +18,8 @@ Allow: /sitemap.xml
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://coolingservicemelbourne.com.au/sitemap.xml
+Sitemap: https://www.coolingservicemelbourne.com.au/sitemap.xml
 
 # Additional sitemaps
-Sitemap: https://coolingservicemelbourne.com.au/sitemap-services.xml
-Sitemap: https://coolingservicemelbourne.com.au/sitemap-locations.xml
+Sitemap: https://www.coolingservicemelbourne.com.au/sitemap-services.xml
+Sitemap: https://www.coolingservicemelbourne.com.au/sitemap-locations.xml

@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://coolingservicemelbourne.com.au";
+  const baseUrl = "https://www.coolingservicemelbourne.com.au";
   const currentDate = new Date().toISOString();
 
   // Main pages

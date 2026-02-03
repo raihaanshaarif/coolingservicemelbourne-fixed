@@ -30,14 +30,14 @@ export const metadata = {
     title: "Air Conditioning FAQ Melbourne | Expert Answers & Tips",
     description:
       "★★★★★ Get expert answers to all your air conditioning questions. Costs, installation, maintenance, repairs & more. Melbourne's trusted AC specialists.",
-    url: "https://coolingservicemelbourne.com.au/faq",
+    url: "https://www.coolingservicemelbourne.com.au/faq",
     siteName: "Cooling Service Melbourne",
     images: [{ url: "/openGraphImage.jpg", width: 1200, height: 630 }],
     locale: "en_AU",
     type: "website",
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/faq",
+    canonical: "https://www.coolingservicemelbourne.com.au/faq",
   },
   robots: {
     index: true,

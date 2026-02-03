@@ -54,14 +54,14 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://coolingservicemelbourne.com.au"),
+  metadataBase: new URL("https://www.coolingservicemelbourne.com.au"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_AU",
-    url: "https://coolingservicemelbourne.com.au",
+    url: "https://www.coolingservicemelbourne.com.au",
     siteName: "Cooling Service Melbourne",
     title:
       "Melbourne's #1 Air Conditioning Specialists | Same-Day Service | 0405 133 761",
@@ -116,7 +116,8 @@ export const metadata = {
     "business:contact_data:postal_code": "3000",
     "business:contact_data:country_name": "Australia",
     "business:contact_data:phone_number": "+61405133761",
-    "business:contact_data:website": "https://coolingservicemelbourne.com.au",
+    "business:contact_data:website":
+      "https://www.coolingservicemelbourne.com.au",
   },
 };
 

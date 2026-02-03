@@ -31,7 +31,7 @@ export const metadata = {
     title: "Evaporative Cooling Melbourne | Same-Day Installation & Repair",
     description:
       "★★★★★ Melbourne's evaporative cooling specialists. Same-day installation, repair & maintenance. Water management, cooling pads, seasonal service. Licensed technicians, free quotes!",
-    url: "https://coolingservicemelbourne.com.au/service/evaporative-system",
+    url: "https://www.coolingservicemelbourne.com.au/service/evaporative-system",
     siteName: "Cooling Service Melbourne",
     images: ["/assets/img/service_banner.jpg"],
     locale: "en_AU",
@@ -45,7 +45,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://coolingservicemelbourne.com.au/service/evaporative-system",
+      "https://www.coolingservicemelbourne.com.au/service/evaporative-system",
   },
   robots: {
     index: true,

@@ -30,14 +30,14 @@ export const metadata = {
       "Fujitsu Air Conditioning Melbourne | Professional Installation & Service",
     description:
       "Expert Fujitsu air conditioning services in Melbourne. Installation, repair, maintenance. Licensed technicians, same-day service available.",
-    url: "https://coolingservicemelbourne.com.au/brands/fujitsu",
+    url: "https://www.coolingservicemelbourne.com.au/brands/fujitsu",
     siteName: "Cooling Service Melbourne",
     images: [{ url: "/openGraphImage.jpg", width: 800, height: 600 }],
     locale: "en_AU",
     type: "website",
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/brands/fujitsu",
+    canonical: "https://www.coolingservicemelbourne.com.au/brands/fujitsu",
   },
 };
 

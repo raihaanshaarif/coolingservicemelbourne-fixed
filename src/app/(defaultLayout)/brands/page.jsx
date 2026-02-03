@@ -43,7 +43,7 @@ export const metadata = {
       "Air Conditioning Brands Melbourne | Professional Installation & Service",
     description:
       "Expert service for all major air conditioning brands. Daikin, Mitsubishi, Panasonic specialists. Same-day service, licensed technicians. Call 0405 133 761.",
-    url: "https://coolingservicemelbourne.com.au/brands",
+    url: "https://www.coolingservicemelbourne.com.au/brands",
     siteName: "Cooling Service Melbourne",
     images: [
       {
@@ -64,7 +64,7 @@ export const metadata = {
     images: ["/openGraphImage.jpg"],
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/brands",
+    canonical: "https://www.coolingservicemelbourne.com.au/brands",
   },
   other: {
     "geo.region": "AU-VIC",

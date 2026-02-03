@@ -13,7 +13,7 @@ export const metadata = {
     title: "Air Conditioning Error Codes & Troubleshooting Guide Melbourne",
     description:
       "Complete error code database for major AC brands including Daikin, Mitsubishi, Panasonic, Samsung, Fujitsu, Carrier, Toshiba, Kelvinator, Rheem, Braemar, and Bonaire. Find solutions or get professional help from licensed technicians.",
-    url: "https://coolingservicemelbourne.com.au/self-care",
+    url: "https://www.coolingservicemelbourne.com.au/self-care",
     images: [
       {
         url: "/assets/img/hero_bg_1.jpg",
@@ -29,7 +29,7 @@ export const metadata = {
       "Find error codes and solutions for major air conditioning brands. Professional help available 24/7 at 0405 133 761.",
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/self-care",
+    canonical: "https://www.coolingservicemelbourne.com.au/self-care",
   },
 };
 

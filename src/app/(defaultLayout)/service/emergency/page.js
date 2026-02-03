@@ -14,7 +14,7 @@ export const metadata = {
       "🚨 24/7 Emergency Air Conditioning Repair Melbourne | Call 0405 133 761 NOW!",
     description:
       "URGENT cooling repairs needed? Our licensed technicians are available 24/7 across Melbourne for emergency split system, ducted & evaporative repairs. Same-day service guaranteed!",
-    url: "https://coolingservicemelbourne.com.au/service/emergency",
+    url: "https://www.coolingservicemelbourne.com.au/service/emergency",
     images: [
       {
         url: "/assets/img/hero_bg_1.jpg",
@@ -31,7 +31,7 @@ export const metadata = {
       "Urgent aircon repair needed? 24/7 emergency service across Melbourne. Same-day repairs for split system, ducted, evaporative. Call NOW!",
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/service/emergency",
+    canonical: "https://www.coolingservicemelbourne.com.au/service/emergency",
   },
 };
 

@@ -30,14 +30,14 @@ export const metadata = {
       "Mitsubishi Air Conditioning Melbourne | Professional Installation & Service",
     description:
       "Expert Mitsubishi air conditioning services in Melbourne. Installation, repair, maintenance. Licensed technicians, same-day service available.",
-    url: "https://coolingservicemelbourne.com.au/brands/mitsubishi",
+    url: "https://www.coolingservicemelbourne.com.au/brands/mitsubishi",
     siteName: "Cooling Service Melbourne",
     images: [{ url: "/openGraphImage.jpg", width: 800, height: 600 }],
     locale: "en_AU",
     type: "website",
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/brands/mitsubishi",
+    canonical: "https://www.coolingservicemelbourne.com.au/brands/mitsubishi",
   },
 };
 

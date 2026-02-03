@@ -36,7 +36,7 @@ export const metadata = {
       "Contact Melbourne's #1 Air Conditioning Specialists | Same-Day Service | 0405 133 761",
     description:
       "★★★★★ Contact Melbourne's trusted air conditioning specialists. Licensed technicians, same-day service, all major brands, all suburbs. Emergency service available 24/7. Free quotes!",
-    url: "https://coolingservicemelbourne.com.au/contact",
+    url: "https://www.coolingservicemelbourne.com.au/contact",
     siteName: "Cooling Service Melbourne",
     images: [{ url: "/openGraphImage.jpg", width: 1200, height: 630 }],
     locale: "en_AU",
@@ -50,7 +50,7 @@ export const metadata = {
       "★★★★★ Contact Melbourne's trusted AC specialists. Same-day service, licensed technicians, all suburbs. Split system, evaporative, ducted. Emergency 24/7!",
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/contact",
+    canonical: "https://www.coolingservicemelbourne.com.au/contact",
   },
 };
 

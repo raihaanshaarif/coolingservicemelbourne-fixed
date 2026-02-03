@@ -2232,7 +2232,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: `${brandName} Error Codes & Troubleshooting | Air Conditioning Melbourne`,
       description: `Complete ${brandName} error codes database with solutions. Professional ${brandName} repair service available 24/7 in Melbourne. Call 0405 133 761 for help.`,
-      url: `https://coolingservicemelbourne.com.au/self-care/${slug}`,
+      url: `https://www.coolingservicemelbourne.com.au/self-care/${slug}`,
       siteName: "Cooling Service Melbourne",
       images: [{ url: "/openGraphImage.jpg", width: 1200, height: 630 }],
       locale: "en_AU",
@@ -2244,7 +2244,7 @@ export async function generateMetadata({ params }) {
       description: `Find ${brandName} error codes and solutions. Professional repair service available 24/7. Call 0405 133 761 for help.`,
     },
     alternates: {
-      canonical: `https://coolingservicemelbourne.com.au/self-care/${slug}`,
+      canonical: `https://www.coolingservicemelbourne.com.au/self-care/${slug}`,
     },
     robots: {
       index: true,

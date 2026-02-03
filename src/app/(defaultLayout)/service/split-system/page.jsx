@@ -32,7 +32,7 @@ export const metadata = {
       "Split System Air Conditioning Melbourne | Same-Day Installation & Repair",
     description:
       "★★★★★ Melbourne's split system specialists. Same-day installation, repair & maintenance. Licensed technicians, all major brands, competitive prices. Free quotes!",
-    url: "https://coolingservicemelbourne.com.au/service/split-system",
+    url: "https://www.coolingservicemelbourne.com.au/service/split-system",
     siteName: "Cooling Service Melbourne",
     images: ["/assets/img/service_banner.jpg"],
     locale: "en_AU",
@@ -46,7 +46,8 @@ export const metadata = {
       "★★★★★ Expert split system services Melbourne. Same-day service, licensed technicians, all brands. Installation, repair & maintenance. Free quotes!",
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/service/split-system",
+    canonical:
+      "https://www.coolingservicemelbourne.com.au/service/split-system",
   },
   robots: {
     index: true,

@@ -30,14 +30,14 @@ export const metadata = {
       "Carrier Air Conditioning Melbourne | Professional Installation & Service",
     description:
       "Expert Carrier air conditioning services in Melbourne. Installation, repair, maintenance. Licensed technicians, same-day service available.",
-    url: "https://coolingservicemelbourne.com.au/brands/carrier",
+    url: "https://www.coolingservicemelbourne.com.au/brands/carrier",
     siteName: "Cooling Service Melbourne",
     images: [{ url: "/openGraphImage.jpg", width: 800, height: 600 }],
     locale: "en_AU",
     type: "website",
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/brands/carrier",
+    canonical: "https://www.coolingservicemelbourne.com.au/brands/carrier",
   },
 };
 

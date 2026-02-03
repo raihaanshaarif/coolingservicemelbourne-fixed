@@ -30,14 +30,14 @@ export const metadata = {
       "Braemar Evaporative Cooling Melbourne | Professional Installation & Service",
     description:
       "Expert Braemar evaporative cooling services in Melbourne. Installation, repair, maintenance. Licensed technicians, same-day service available.",
-    url: "https://coolingservicemelbourne.com.au/brands/braemar",
+    url: "https://www.coolingservicemelbourne.com.au/brands/braemar",
     siteName: "Cooling Service Melbourne",
     images: [{ url: "/openGraphImage.jpg", width: 800, height: 600 }],
     locale: "en_AU",
     type: "website",
   },
   alternates: {
-    canonical: "https://coolingservicemelbourne.com.au/brands/braemar",
+    canonical: "https://www.coolingservicemelbourne.com.au/brands/braemar",
   },
 };
 

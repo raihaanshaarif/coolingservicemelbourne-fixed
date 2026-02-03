@@ -13,7 +13,7 @@ export const metadata = {
       "Air Conditioning Services All Melbourne Suburbs | Local Licensed Technicians",
     description:
       "Professional AC services across ALL Melbourne suburbs. Local technicians, same-day service, emergency repairs. Split system, ducted, evaporative cooling. Call 0405 133 761!",
-    url: "https://coolingservicemelbourne.com.au/service-areas/melbourne-suburbs",
+    url: "https://www.coolingservicemelbourne.com.au/service-areas/melbourne-suburbs",
     images: [
       {
         url: "/assets/img/hero_bg_1.jpg",
@@ -25,7 +25,7 @@ export const metadata = {
   },
   alternates: {
     canonical:
-      "https://coolingservicemelbourne.com.au/service-areas/melbourne-suburbs",
+      "https://www.coolingservicemelbourne.com.au/service-areas/melbourne-suburbs",
   },
 };
 

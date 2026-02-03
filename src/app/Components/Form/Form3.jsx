@@ -25,8 +25,28 @@ const Form3 = () => {
     setIsSubmitting(true);
     setSubmitStatus(null);
 
+    // Basic client-side validation
+    if (!formData.name.trim()) {
+      setSubmitStatus({ type: "error", message: "Name is required." });
+      setIsSubmitting(false);
+      return;
+    }
+    if (!formData.email.trim() || !/\S+@\S+\.\S+/.test(formData.email)) {
+      setSubmitStatus({ type: "error", message: "Valid email is required." });
+      setIsSubmitting(false);
+      return;
+    }
+    if (!formData.message.trim() && !formData.service) {
+      setSubmitStatus({
+        type: "error",
+        message: "Message or service selection is required.",
+      });
+      setIsSubmitting(false);
+      return;
+    }
+
     try {
-      const response = await fetch("/sendmail.php", {
+      const response = await fetch("/api/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
