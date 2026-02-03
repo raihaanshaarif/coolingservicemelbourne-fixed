@@ -12,11 +12,38 @@ export async function POST(request) {
       );
     }
 
+    // Check for required environment variables
+    const requiredEnvVars = [
+      "SMTP_HOST",
+      "SMTP_PORT",
+      "SMTP_USER",
+      "SMTP_PASSWORD",
+      "SMTP_FROM",
+      "SMTP_TO",
+    ];
+    const missingEnvVars = requiredEnvVars.filter(
+      (key) => !process.env[key],
+    );
+
+    if (missingEnvVars.length > 0) {
+      console.error(
+        "Missing required environment variables:",
+        missingEnvVars.join(", "),
+      );
+      return Response.json(
+        {
+          success: false,
+          message: "Server configuration error. Please contact support.",
+        },
+        { status: 500 },
+      );
+    }
+
     // Create transporter
     const transporter = nodemailer.createTransporter({
       host: process.env.SMTP_HOST,
       port: parseInt(process.env.SMTP_PORT),
-      secure: false, // true for 465, false for other ports
+      secure: parseInt(process.env.SMTP_PORT) === 465, // true for 465, false for other ports
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASSWORD,
