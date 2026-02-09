@@ -10,7 +10,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const service = emergencyServices.find((s) => s.slug === params.slug);
+  const { slug } = await params;
+  const service = emergencyServices.find((s) => s.slug === slug);
 
   if (!service) {
     return {
@@ -25,8 +26,9 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function EmergencyServiceDetailsPage({ params }) {
-  const service = emergencyServices.find((s) => s.slug === params.slug);
+export default async function EmergencyServiceDetailsPage({ params }) {
+  const { slug } = await params;
+  const service = emergencyServices.find((s) => s.slug === slug);
 
   return (
     <div>
