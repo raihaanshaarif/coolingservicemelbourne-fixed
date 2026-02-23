@@ -15,6 +15,9 @@ export const metadata = {
       "We service all Melbourne suburbs with professional air conditioning repair, installation and maintenance. Same-day service available across metro Melbourne.",
     images: ["/assets/img/service_banner.jpg"],
   },
+  alternates: {
+    canonical: "https://www.coolingservicemelbourne.com.au/service-areas",
+  },
 };
 
 const page = () => {

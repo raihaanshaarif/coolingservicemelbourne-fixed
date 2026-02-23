@@ -10,6 +10,21 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        destination: "https://www.coolingservicemelbourne.com.au/:path*",
+        permanent: true,
+        has: [
+          {
+            type: "host",
+            value: "coolingservicemelbourne.com.au",
+          },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
